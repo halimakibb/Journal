@@ -1,0 +1,16 @@
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\bin\Debug\netstandard2.0\Journal.Repositories.deps.json
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\bin\Debug\netstandard2.0\Journal.Repositories.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\bin\Debug\netstandard2.0\Journal.Repositories.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\bin\Debug\netstandard2.0\Journal.Configurations.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\bin\Debug\netstandard2.0\Journal.Entities.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\bin\Debug\netstandard2.0\Journal.Repositories.Interfaces.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\bin\Debug\netstandard2.0\Journal.Repositories.Interfaces.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\bin\Debug\netstandard2.0\Journal.Entities.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\bin\Debug\netstandard2.0\Journal.Configurations.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\obj\Debug\netstandard2.0\Journal.Repositories.csprojAssemblyReference.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\obj\Debug\netstandard2.0\Journal.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\obj\Debug\netstandard2.0\Journal.Repositories.AssemblyInfoInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\obj\Debug\netstandard2.0\Journal.Repositories.AssemblyInfo.cs
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\obj\Debug\netstandard2.0\Journal.Repositories.csproj.CopyComplete
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\obj\Debug\netstandard2.0\Journal.Repositories.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Repositories\obj\Debug\netstandard2.0\Journal.Repositories.pdb

@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Habib_M599\\Documents\\Projects\\Journal\\Journal.Configurations\\Journal.Configurations.csproj",
+  "TargetFramework": "netstandard2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

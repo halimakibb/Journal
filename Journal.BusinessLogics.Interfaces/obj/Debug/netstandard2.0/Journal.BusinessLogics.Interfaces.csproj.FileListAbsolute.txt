@@ -1,0 +1,12 @@
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\bin\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.deps.json
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\bin\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\bin\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\bin\Debug\netstandard2.0\Journal.Entities.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\bin\Debug\netstandard2.0\Journal.Entities.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\obj\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.csprojAssemblyReference.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\obj\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\obj\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\obj\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.AssemblyInfo.cs
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\obj\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.csproj.CopyComplete
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\obj\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics.Interfaces\obj\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.pdb

@@ -1,0 +1,8 @@
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Configurations\bin\Debug\netstandard2.0\Journal.Configurations.deps.json
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Configurations\bin\Debug\netstandard2.0\Journal.Configurations.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Configurations\bin\Debug\netstandard2.0\Journal.Configurations.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Configurations\obj\Debug\netstandard2.0\Journal.Configurations.csproj.CoreCompileInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Configurations\obj\Debug\netstandard2.0\Journal.Configurations.AssemblyInfoInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Configurations\obj\Debug\netstandard2.0\Journal.Configurations.AssemblyInfo.cs
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Configurations\obj\Debug\netstandard2.0\Journal.Configurations.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Configurations\obj\Debug\netstandard2.0\Journal.Configurations.pdb

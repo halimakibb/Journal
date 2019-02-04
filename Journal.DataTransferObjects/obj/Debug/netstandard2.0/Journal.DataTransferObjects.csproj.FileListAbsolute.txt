@@ -1,0 +1,8 @@
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.DataTransferObjects\bin\Debug\netstandard2.0\Journal.DataTransferObjects.deps.json
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.DataTransferObjects\bin\Debug\netstandard2.0\Journal.DataTransferObjects.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.DataTransferObjects\bin\Debug\netstandard2.0\Journal.DataTransferObjects.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.DataTransferObjects\obj\Debug\netstandard2.0\Journal.DataTransferObjects.csproj.CoreCompileInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.DataTransferObjects\obj\Debug\netstandard2.0\Journal.DataTransferObjects.AssemblyInfoInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.DataTransferObjects\obj\Debug\netstandard2.0\Journal.DataTransferObjects.AssemblyInfo.cs
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.DataTransferObjects\obj\Debug\netstandard2.0\Journal.DataTransferObjects.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.DataTransferObjects\obj\Debug\netstandard2.0\Journal.DataTransferObjects.pdb

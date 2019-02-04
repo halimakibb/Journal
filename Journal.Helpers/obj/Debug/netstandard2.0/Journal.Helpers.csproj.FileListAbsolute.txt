@@ -1,0 +1,8 @@
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Helpers\bin\Debug\netstandard2.0\Journal.Helpers.deps.json
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Helpers\bin\Debug\netstandard2.0\Journal.Helpers.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Helpers\bin\Debug\netstandard2.0\Journal.Helpers.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Helpers\obj\Debug\netstandard2.0\Journal.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Helpers\obj\Debug\netstandard2.0\Journal.Helpers.AssemblyInfoInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Helpers\obj\Debug\netstandard2.0\Journal.Helpers.AssemblyInfo.cs
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Helpers\obj\Debug\netstandard2.0\Journal.Helpers.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Helpers\obj\Debug\netstandard2.0\Journal.Helpers.pdb

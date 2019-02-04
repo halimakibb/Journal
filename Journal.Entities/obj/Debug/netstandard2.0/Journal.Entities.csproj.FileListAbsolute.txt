@@ -1,0 +1,8 @@
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Entities\bin\Debug\netstandard2.0\Journal.Entities.deps.json
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Entities\bin\Debug\netstandard2.0\Journal.Entities.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Entities\bin\Debug\netstandard2.0\Journal.Entities.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Entities\obj\Debug\netstandard2.0\Journal.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Entities\obj\Debug\netstandard2.0\Journal.Entities.AssemblyInfoInputs.cache
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Entities\obj\Debug\netstandard2.0\Journal.Entities.AssemblyInfo.cs
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Entities\obj\Debug\netstandard2.0\Journal.Entities.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.Entities\obj\Debug\netstandard2.0\Journal.Entities.pdb
