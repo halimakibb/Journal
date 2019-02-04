@@ -5,10 +5,8 @@
     "tasks": [
         {
             "label": "build",
-            "type": "npm",
-            "script": "build",
-            "path": "Journal.API/ClientApp/",
-            "problemMatcher": []
+            "type": "shell",
+            "command": "dotnet clean; dotnet build"
         }
     ]
 }

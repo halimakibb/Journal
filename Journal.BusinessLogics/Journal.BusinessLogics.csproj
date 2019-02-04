@@ -1,11 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include = "..\Journal.BusinessLogics.Interfaces\Journal.BusinessLogics.Interfaces.csproj" />
-    <ProjectReference Include = "..\Journal.Repositories.Interfaces\Journal.Repositories.Interfaces.csproj" />
-    <ProjectReference Include = "..\Journal.Entities\Journal.Entities.csproj" />
+    <ProjectReference Include="..\Journal.BusinessLogics.Interfaces\Journal.BusinessLogics.Interfaces.csproj"/>
+    <ProjectReference Include="..\Journal.Repositories.Interfaces\Journal.Repositories.Interfaces.csproj"/>
+    <ProjectReference Include="..\Journal.Entities\Journal.Entities.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1"/>
   </ItemGroup>
 </Project>

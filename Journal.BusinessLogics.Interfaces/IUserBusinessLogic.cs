@@ -5,6 +5,12 @@ namespace Journal.BusinessLogics.Interfaces
 {
     public interface IUserBusinessLogic
     {
-        IEnumerable<User> GetAll();
+        ReturnMessage GetAll();
+        ReturnMessage GetById(long id);
+        ReturnMessage GetByUsername(string username);
+        ReturnMessage GetByEmail(string email);
+        ReturnMessage Login (User user);
+        ReturnMessage Register(User user);
+        ReturnMessage DeactivateUser(long id);
     }
 }

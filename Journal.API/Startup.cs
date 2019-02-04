@@ -24,8 +24,8 @@ namespace Journal.API
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
+                .AddJsonFile(env.ContentRootPath + "\\Journal.API\\appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile(env.ContentRootPath + $"\\Journal.API\\appsettings.{env.EnvironmentName}.json", optional: true);
 
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();

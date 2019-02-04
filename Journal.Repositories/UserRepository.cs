@@ -14,6 +14,8 @@ namespace Journal.Repositories
     public class UserRepository : IUserRepository
     {
         private readonly ConnectionStrings _connectionStrings;
+
+        #region Get Connection
         public UserRepository(IOptionsMonitor<ConnectionStrings> connectionStrings) {
             _connectionStrings = connectionStrings.CurrentValue;
         }
@@ -24,7 +26,60 @@ namespace Journal.Repositories
             {
                 return new SqlConnection(_connectionStrings.DefaultConnection);
             }
-        }          
+        }
+        #endregion
+
+        #region Stored Procedures
+        string sp_User_GetAll = "Sp_User_GetAll";
+        string sp_User_GetById = "Sp_User_GetById";
+        string sp_User_GetByUsername = "Sp_User_GetByUsername";
+        string sp_User_GetByEmail = "Sp_User_GetByEmail";
+        string sp_User_Register = "Sp_User_Register";
+        string sp_User_Login = "Sp_User_Login";
+        string sp_User_Update = "Sp_User_Update";
+        string sp_User_Deactivate = "Sp_User_Deactivate";
+        #endregion
+        public void DeactivateUser(long id)
+        {
+            using (IDbConnection dbConnection = Connection)
+            {
+                List<User> users = new List<User>();
+                try
+                {
+                    dbConnection.Open();
+                    using (var transaction = dbConnection.BeginTransaction())
+                    {
+                        try
+                        {
+                            dbConnection.Query<User>(sp_User_Deactivate,
+                                new { UserId = id },
+                                commandType: CommandType.StoredProcedure);
+                            transaction.Commit();
+                        }
+                        catch (Exception ex)
+                        {
+                            transaction.Rollback();
+                            throw ex;
+                        } 
+                    }
+                    
+                    
+                }
+                catch (Exception ex)
+                {
+                    //placeholder
+                    Console.WriteLine(ex.Message);
+                    throw ex;
+                }
+                finally
+                {
+                    dbConnection.Close();
+                    dbConnection.Dispose();
+                }
+
+            }
+        }
+
         public IEnumerable<User> GetAll()
         {
             using (IDbConnection dbConnection = Connection)
@@ -32,14 +87,16 @@ namespace Journal.Repositories
                 List<User> users = new List<User>();
                 try
                 {
-                    string sQuery = "SELECT * FROM Users";
+                    string storedProcedure = "Sp_User_GetAll";
                     dbConnection.Open();
-                    users = dbConnection.Query<User>(sQuery).AsList();
+                    users = dbConnection.Query<User>(storedProcedure,
+                        commandType: CommandType.StoredProcedure).AsList();
                 }
                 catch (Exception ex)
                 {
                     //placeholder
                     Console.WriteLine(ex.Message);
+                    throw ex;
                 }
                 finally
                 {
@@ -48,6 +105,130 @@ namespace Journal.Repositories
                 }
 
                 return users;
+            }
+        }
+
+        public User GetById(long id)
+        {
+            using (IDbConnection dbConnection = Connection)
+            {
+                User user = new User();
+                try
+                {
+                    dbConnection.Open();
+                    user = dbConnection.QueryFirstOrDefault<User>(sp_User_GetAll,
+                        commandType: CommandType.StoredProcedure);
+                }
+                catch (Exception ex)
+                {
+                    //placeholder
+                    Console.WriteLine(ex.Message);
+                    throw ex;
+                }
+                finally
+                {
+                    dbConnection.Close();
+                    dbConnection.Dispose();
+                }
+
+                return user;
+            }
+        }
+
+        public void Register(User user)
+        {
+            using (IDbConnection dbConnection = Connection)
+            {
+                List<User> users = new List<User>();
+                try
+                {
+                    dbConnection.Open();
+                    using (var transaction = dbConnection.BeginTransaction())
+                    {
+                        try
+                        {
+                            dbConnection.Query<User>(sp_User_Register,
+                            new { Username = user.Username,
+                                Email = user.Email,
+                                Password = user.Password },
+                                commandType: CommandType.StoredProcedure);
+                            transaction.Commit();
+                        }
+                        catch (Exception ex)
+                        {
+                            transaction.Rollback();
+                            throw ex;
+                        } 
+                    }
+                    
+                }
+                catch (Exception ex)
+                {
+                    //placeholder
+                    Console.WriteLine(ex.Message);
+                    throw ex;
+                }
+                finally
+                {
+                    dbConnection.Close();
+                    dbConnection.Dispose();
+                }
+            }
+        }
+
+        public User GetByUsername(string username)
+        {
+            using (IDbConnection dbConnection = Connection)
+            {
+                User user = new User();
+                try
+                {
+                    dbConnection.Open();
+                    user = dbConnection.QueryFirstOrDefault<User>(sp_User_GetByUsername,
+                        new { Username = username },
+                        commandType: CommandType.StoredProcedure);
+                }
+                catch (Exception ex)
+                {
+                    //placeholder
+                    Console.WriteLine(ex.Message);
+                    throw ex;
+                }
+                finally
+                {
+                    dbConnection.Close();
+                    dbConnection.Dispose();
+                }
+
+                return user;
+            }
+        }
+
+        public User GetByEmail(string email)
+        {
+            using (IDbConnection dbConnection = Connection)
+            {
+                User user = new User();
+                try
+                {
+                    dbConnection.Open();
+                    user = dbConnection.QueryFirstOrDefault<User>(sp_User_GetByEmail,
+                        new { Email = email },
+                        commandType: CommandType.StoredProcedure);
+                }
+                catch (Exception ex)
+                {
+                    //placeholder
+                    Console.WriteLine(ex.Message);
+                    throw ex;
+                }
+                finally
+                {
+                    dbConnection.Close();
+                    dbConnection.Dispose();
+                }
+
+                return user;
             }
         }
     }

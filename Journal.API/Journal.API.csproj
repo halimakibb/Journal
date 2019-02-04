@@ -11,14 +11,13 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App"/>
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All"/>
-
-    <ProjectReference Include = "..\Journal.BusinessLogics.Interfaces\Journal.BusinessLogics.Interfaces.csproj" />
-    <ProjectReference Include = "..\Journal.BusinessLogics\Journal.BusinessLogics.csproj" />
-    <ProjectReference Include = "..\Journal.Repositories.Interfaces\Journal.Repositories.Interfaces.csproj" />
-    <ProjectReference Include = "..\Journal.Repositories\Journal.Repositories.csproj" />
     
-    <ProjectReference Include = "..\Journal.Entities\Journal.Entities.csproj" />
-    <ProjectReference Include = "..\Journal.Configurations\Journal.Configurations.csproj" />
+    <ProjectReference Include="..\Journal.BusinessLogics.Interfaces\Journal.BusinessLogics.Interfaces.csproj"/>
+    <ProjectReference Include="..\Journal.BusinessLogics\Journal.BusinessLogics.csproj"/>
+    <ProjectReference Include="..\Journal.Repositories.Interfaces\Journal.Repositories.Interfaces.csproj"/>
+    <ProjectReference Include="..\Journal.Repositories\Journal.Repositories.csproj"/>
+    <ProjectReference Include="..\Journal.Entities\Journal.Entities.csproj"/>
+    <ProjectReference Include="..\Journal.Configurations\Journal.Configurations.csproj"/>
   </ItemGroup>
   <ItemGroup>
     <Content Remove="$(SpaRoot)**"/>
