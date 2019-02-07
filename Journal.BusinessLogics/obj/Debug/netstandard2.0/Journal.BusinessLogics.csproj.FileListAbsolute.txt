@@ -2,11 +2,13 @@ C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.BusinessLogics.dll
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.BusinessLogics.pdb
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.dll
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.Configurations.dll
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.Entities.dll
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.Repositories.Interfaces.dll
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.BusinessLogics.Interfaces.pdb
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.Repositories.Interfaces.pdb
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.Entities.pdb
+C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\bin\Debug\netstandard2.0\Journal.Configurations.pdb
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\obj\Debug\netstandard2.0\Journal.BusinessLogics.csprojAssemblyReference.cache
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\obj\Debug\netstandard2.0\Journal.BusinessLogics.csproj.CoreCompileInputs.cache
 C:\Users\Habib_M599\Documents\Projects\Journal\Journal.BusinessLogics\obj\Debug\netstandard2.0\Journal.BusinessLogics.AssemblyInfoInputs.cache

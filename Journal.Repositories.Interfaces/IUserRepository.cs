@@ -9,7 +9,8 @@ namespace Journal.Repositories.Interfaces
         User GetById(long id);
         User GetByUsername(string username);
         User GetByEmail(string email);
+        void AddToken(User user);
         void Register(User user);
-        void DeactivateUser(long id);
+        void DeactivateUser(User user);
     }
 }

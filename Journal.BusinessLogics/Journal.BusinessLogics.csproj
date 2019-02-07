@@ -6,8 +6,11 @@
     <ProjectReference Include="..\Journal.BusinessLogics.Interfaces\Journal.BusinessLogics.Interfaces.csproj"/>
     <ProjectReference Include="..\Journal.Repositories.Interfaces\Journal.Repositories.Interfaces.csproj"/>
     <ProjectReference Include="..\Journal.Entities\Journal.Entities.csproj"/>
+    <ProjectReference Include="..\Journal.Configurations\Journal.Configurations.csproj"/>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1"/>
+    <PackageReference Include="BCrypt" Version="1.0.0"/>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.4.0"/>
   </ItemGroup>
 </Project>

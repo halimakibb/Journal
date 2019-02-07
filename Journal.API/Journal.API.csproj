@@ -7,16 +7,18 @@
     <SpaRoot>ClientApp\</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App"/>
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All"/>
-    
+    <PackageReference Include="bootstrap" Version="4.2.1"/>
     <ProjectReference Include="..\Journal.BusinessLogics.Interfaces\Journal.BusinessLogics.Interfaces.csproj"/>
     <ProjectReference Include="..\Journal.BusinessLogics\Journal.BusinessLogics.csproj"/>
     <ProjectReference Include="..\Journal.Repositories.Interfaces\Journal.Repositories.Interfaces.csproj"/>
     <ProjectReference Include="..\Journal.Repositories\Journal.Repositories.csproj"/>
     <ProjectReference Include="..\Journal.Entities\Journal.Entities.csproj"/>
+    <ProjectReference Include="..\Journal.DataTransferObjects\Journal.DataTransferObjects.csproj"/>
     <ProjectReference Include="..\Journal.Configurations\Journal.Configurations.csproj"/>
   </ItemGroup>
   <ItemGroup>

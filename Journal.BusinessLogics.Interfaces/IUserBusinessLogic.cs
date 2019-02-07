@@ -11,6 +11,6 @@ namespace Journal.BusinessLogics.Interfaces
         ReturnMessage GetByEmail(string email);
         ReturnMessage Login (User user);
         ReturnMessage Register(User user);
-        ReturnMessage DeactivateUser(long id);
+        ReturnMessage DeactivateUser(User user);
     }
 }
